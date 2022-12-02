@@ -142,15 +142,13 @@ public class Inicio extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 0, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 255));
         jPanel1.setForeground(new java.awt.Color(255, 0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Wide Latin", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setFont(new java.awt.Font("Ink Free", 1, 36)); // NOI18N
         jLabel1.setText("EVALUACION UNIDAD  2");
 
         jLabel2.setFont(new java.awt.Font("Serif", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("ALUMNO: Bisleyn Arce Apaza");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -158,98 +156,84 @@ public class Inicio extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 456, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(118, 118, 118))))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(157, 157, 157)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 456, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(263, 263, 263)
+                        .addComponent(jLabel2)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(13, 13, 13)
+                .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
                 .addContainerGap(19, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(0, 0, 204));
+        jPanel2.setBackground(new java.awt.Color(255, 153, 0));
 
-        jLabel6.setBackground(new java.awt.Color(102, 255, 51));
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel6.setBackground(new java.awt.Color(153, 255, 51));
         jLabel6.setText("JUGADOR 1 :");
         jLabel6.setOpaque(true);
 
         jLabel7.setBackground(new java.awt.Color(102, 255, 51));
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("JUGADOR 2 :");
         jLabel7.setOpaque(true);
 
-        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel5.setBackground(new java.awt.Color(255, 102, 102));
 
-        Casilla1.setBackground(new java.awt.Color(102, 255, 51));
+        Casilla1.setBackground(new java.awt.Color(255, 255, 204));
         Casilla1.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        Casilla1.setForeground(new java.awt.Color(0, 0, 0));
         Casilla1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla1.setOpaque(true);
 
-        Casilla3.setBackground(new java.awt.Color(102, 255, 51));
+        Casilla3.setBackground(new java.awt.Color(255, 255, 204));
         Casilla3.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        Casilla3.setForeground(new java.awt.Color(0, 0, 0));
         Casilla3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla3.setOpaque(true);
 
-        Casilla4.setBackground(new java.awt.Color(102, 255, 51));
+        Casilla4.setBackground(new java.awt.Color(255, 255, 204));
         Casilla4.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        Casilla4.setForeground(new java.awt.Color(0, 0, 0));
         Casilla4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla4.setOpaque(true);
 
-        Casilla7.setBackground(new java.awt.Color(102, 255, 51));
+        Casilla7.setBackground(new java.awt.Color(255, 255, 204));
         Casilla7.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        Casilla7.setForeground(new java.awt.Color(0, 0, 0));
         Casilla7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla7.setOpaque(true);
 
-        Casilla2.setBackground(new java.awt.Color(102, 255, 51));
+        Casilla2.setBackground(new java.awt.Color(255, 255, 204));
         Casilla2.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        Casilla2.setForeground(new java.awt.Color(0, 0, 0));
         Casilla2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla2.setOpaque(true);
 
-        Casilla9.setBackground(new java.awt.Color(102, 255, 51));
+        Casilla9.setBackground(new java.awt.Color(255, 255, 204));
         Casilla9.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        Casilla9.setForeground(new java.awt.Color(0, 0, 0));
         Casilla9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla9.setOpaque(true);
 
-        Casilla6.setBackground(new java.awt.Color(102, 255, 51));
+        Casilla6.setBackground(new java.awt.Color(255, 255, 204));
         Casilla6.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        Casilla6.setForeground(new java.awt.Color(0, 0, 0));
         Casilla6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla6.setOpaque(true);
 
-        Casilla8.setBackground(new java.awt.Color(102, 255, 51));
+        Casilla8.setBackground(new java.awt.Color(255, 255, 204));
         Casilla8.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        Casilla8.setForeground(new java.awt.Color(0, 0, 0));
         Casilla8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla8.setOpaque(true);
 
-        Casilla5.setBackground(new java.awt.Color(102, 255, 51));
+        Casilla5.setBackground(new java.awt.Color(255, 255, 204));
         Casilla5.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        Casilla5.setForeground(new java.awt.Color(0, 0, 0));
         Casilla5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Casilla5.setOpaque(true);
 
         jLabel5.setFont(new java.awt.Font("Segoe UI Emoji", 1, 24)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("TURNO :");
-
-        lblNombre.setForeground(new java.awt.Color(0, 0, 0));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -262,37 +246,40 @@ public class Inicio extends javax.swing.JFrame {
                         .addComponent(Casilla7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(Casilla8, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
                         .addComponent(Casilla9, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addContainerGap(13, Short.MAX_VALUE))
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addComponent(jLabel5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(lblNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(Casilla1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(Casilla2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(Casilla3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(Casilla4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(Casilla5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
-                        .addComponent(Casilla6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(13, 13, 13))))
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(Casilla1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Casilla4, javax.swing.GroupLayout.DEFAULT_SIZE, 90, Short.MAX_VALUE))
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Casilla5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(Casilla6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(13, 13, 13))
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addGap(19, 19, 19)
+                                .addComponent(Casilla2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(Casilla3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE))))))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Casilla3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Casilla3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 90, Short.MAX_VALUE)
                     .addComponent(Casilla2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Casilla1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Casilla1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Casilla6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -301,8 +288,8 @@ public class Inicio extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Casilla9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Casilla8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Casilla7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Casilla7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 90, Short.MAX_VALUE)
+                    .addComponent(Casilla8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel5)
@@ -310,13 +297,11 @@ public class Inicio extends javax.swing.JFrame {
         );
 
         victoriasJ1.setBackground(new java.awt.Color(102, 255, 51));
-        victoriasJ1.setForeground(new java.awt.Color(0, 0, 0));
         victoriasJ1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         victoriasJ1.setText("0");
         victoriasJ1.setOpaque(true);
 
         victoriasJ2.setBackground(new java.awt.Color(102, 255, 51));
-        victoriasJ2.setForeground(new java.awt.Color(0, 0, 0));
         victoriasJ2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         victoriasJ2.setText("0");
         victoriasJ2.setOpaque(true);
@@ -364,10 +349,11 @@ public class Inicio extends javax.swing.JFrame {
                 .addContainerGap(35, Short.MAX_VALUE))
         );
 
-        jPanel3.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel3.setBackground(new java.awt.Color(255, 204, 204));
 
-        jPanel4.setBackground(new java.awt.Color(255, 0, 255));
+        jPanel4.setBackground(new java.awt.Color(204, 204, 255));
 
+        jTable1.setBackground(new java.awt.Color(255, 102, 102));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -413,10 +399,8 @@ public class Inicio extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("NOMBRE JUGADOR 1:");
 
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("NOMBRE JUGADOR 2:");
 
         btnIniciar.setText("INICIAR");
